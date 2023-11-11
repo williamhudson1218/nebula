@@ -1,0 +1,39 @@
+.listings-page {
+  padding: 20px;
+}
+
+.page-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.listings-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.listing-item {
+  width: 250px;
+  height: 250px; /* Adjust the height to accommodate the additional div */
+  margin: 10px; /* Adjust the margin as needed */
+  border: 1px solid #ccc; /* Border for better visibility */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Shadow for better visibility */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.listing-image-placeholder {
+  flex: 1; /* Make the image placeholder expand to fill available space */
+  background-color: #ddd; /* Placeholder background color */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  /* Additional styles for the placeholder image */
+}
+
+.listing-details {
+  padding: 10px; /* Add padding to the details div */
+  text-align: center; /* Center the text within the details div */
+  border-top: 1px solid #ccc; /* Border to separate image and details */
+  height: 50px;
+}
